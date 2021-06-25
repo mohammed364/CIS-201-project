@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+	
+		
+		<meta name ="viewport" content ="width=divice-width", initial-scale=1.0"/>
+		
+			<title> MENU  </title>
+			
+	<link rel="stylesheet"  href="style and javascript/style.css">
+	
+	<script src="style and javascript/java.js"></script>
+
+	</head>
+
+	<body>
+	
+	
+	<div class ="container">
+	
+	
+	<div class = "navbar">
+	
+	<img src ="images/logo.png" class ="logo">
+	<nav>
+	<ul>
+	
+	<li><a href ="project.html"> HOME</a></li>
+	<li><a href ="about us.html"> ABOUT US </a></li>
+	<li><a href ="reservation.html"> RESERVATION</a></li>
+	<li><a href ="order.html">MENU </a></li>
+	<li id="cart" class="right-align"> <span id="items-No">0 </span></li>
+	
+	
+	
+	
+	</ul>
+	</nav>
+	
+	</div>
+      <div class="menu">
+      <h2 class="menu-group-heading">Apptazire  </h2>
+      <div class="menu-group">
+	  
+        <div class="menu-item">
+          <img class="menu-item-image" src="images/tomatoes.jpg" >
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Grilled Tomato Crostini</span>
+			 
+              <span class="menu-item-price">27sr</span>
+			<button onclick="addToBasket('Grilled Tomato Crostini')"> Add </button>
+            </h3>
+			  
+            <p class="menu-item-description">
+              Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
+              congue eu mauris nec, pretium tincidunt nulla.
+            </p>
+			   
+          </div>
+        </div>
+		
+        <div class="menu-item">
+          <img class="menu-item-image" src="images/Fresh Mozzarella.jpg" >
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Fresh Mozzarella</span>
+              <span class="menu-item-price">29SR</span>
+			  <button onclick="addToBasket('Fresh Mozzarella')"> Add </button>
+            </h3>
+            <p class="menu-item-description">
+              Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
+              congue eu mauris nec, pretium tincidunt nulla.
+            </p>
+			   
+          </div>
+        </div>
+      </div>
+      <h2 class="menu-group-heading"> Main </h2>
+      <div class="menu-group">
+        <div class="menu-item">
+          <img class="menu-item-image" src="images/Pizza Napoletana.jpg" >
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Pizza Napoletana </span>
+              <span class="menu-item-price">35SR</span>
+			   <button onclick="addToBasket('Pizza Napoletana')"> Add </button>
+            </h3>
+            <p class="menu-item-description">
+              Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
+              congue eu mauris nec, pretium tincidunt nulla.
+            </p>
+			  
+          </div>
+        </div>
+        <div class="menu-item">
+          <img class="menu-item-image" src="images/Lasagna.jpg" >
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Lasagna</span>
+              <span class="menu-item-price">30SR</span>
+			  <button onclick="addToBasket('Lasagna')"> Add </button>
+            </h3>
+            <p class="menu-item-description">
+              Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
+              congue eu mauris nec, pretium tincidunt nulla.
+            </p>
+			   
+          </div>
+        </div>
+		<div class="menu-item">
+          <img class="menu-item-image" src="images/Risottoi.jpg" >
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Risottoi </span>
+              <span class="menu-item-price">35SR</span>
+			  <button onclick="addToBasket('Risottoi')"> Add </button>
+            </h3>
+            <p class="menu-item-description">
+              Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
+              congue eu mauris nec, pretium tincidunt nulla.
+            </p>
+			   
+          </div>
+        </div>
+        <div class="menu-item">
+          <img class="menu-item-image" src="images/Carne.jpg" >
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Carne </span>
+              <span class="menu-item-price">50SR</span>
+			   <button onclick="addToBasket('Carne')"> Add </button>
+            </h3>
+            <p class="menu-item-description">
+              Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
+              congue eu mauris nec, pretium tincidunt nulla.
+            </p>
+			  
+          </div>
+        </div>
+      </div>
+	        <h2 class="menu-group-heading">Dessert  </h2>
+      <div class="menu-group">
+	  
+        <div class="menu-item">
+          <img class="menu-item-image" src="images/Classic tiramisu.jpg" >
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Classic tiramisu</span>
+              <span class="menu-item-price">20sr</span>
+			   <button onclick="addToBasket('Classic tiramisu')"> Add </button>
+            </h3>
+            <p class="menu-item-description">
+              Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
+              congue eu mauris nec, pretium tincidunt nulla.
+            </p>
+			  
+          </div>
+        </div>	
+        <div class="menu-item">
+          <img class="menu-item-image" src="images/lemon.jpg" >
+         <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">lemon cake</span>
+              <span class="menu-item-price">19SR</span>
+			  <button onclick="addToBasket('lemon')"> Add </button>
+            </h3>
+            <p class="menu-item-description">
+              Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
+              congue eu mauris nec, pretium tincidunt nulla.
+            </p>
+			   
+       </div>
+	   </div>
+	   </div>
+	 
+	  
+	  
+	     <h2 class="menu-group-heading">Drinks  </h2>
+      <div class="menu-group">
+	  
+        <div class="menu-item">
+          <img class="menu-item-image" src="images/soda.jpg" >
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Coke,Sprite,Pepsi,Fanta</span>
+              <span class="menu-item-price">5SR</span>
+			   <button onclick="addToBasket('soda')"> Add </button>
+            </h3>
+            <p class="menu-item-description">
+              Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
+              congue eu mauris nec, pretium tincidunt nulla.
+            </p>
+          </div>
+        </div>
+		
+		
+		
+		
+        <div class="menu-item">
+          <img class="menu-item-image" src="images/juice.jpg" >
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Fresh juice</span>
+              <span class="menu-item-price">15SR</span>
+			  <button onclick="addToBasket('juice')"> Add </button>
+            </h3>
+            <p class="menu-item-description">
+              Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
+              congue eu mauris nec, pretium tincidunt nulla.
+            </p>
+			   
+          </div>
+        </div>
+      </div>
+    </div>
+	</body>
+	</html>
